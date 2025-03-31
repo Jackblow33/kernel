@@ -1,0 +1,8 @@
+
+#Go watch this:
+#Video:https://www.youtube.com/watch?v=k1LAifKCjWw
+
+#Modprobed-db
+#https://wiki.archlinux.org/title/Modprobed-db
+#https://github.com/graysky2/modprobed-db?tab=readme-ov-file
+
