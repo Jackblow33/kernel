@@ -6,6 +6,8 @@
 #https://wiki.archlinux.org/title/Modprobed-db
 #https://github.com/graysky2/modprobed-db?tab=readme-ov-file
 
+#https://github.com/CachyOS/linux-cachyos-deb
+
 #nb Coffee Lake and Kaby Lake are both Skylake.
 
 #The number of modules can be determined by the following:
