@@ -1,5 +1,5 @@
 
-#Go watch this:
+#Watch this first:
 #Video:https://www.youtube.com/watch?v=k1LAifKCjWw
 
 #Modprobed-db
@@ -7,4 +7,14 @@
 #https://github.com/graysky2/modprobed-db?tab=readme-ov-file
 
 #nb Coffee Lake and Kaby Lake are both Skylake.
+
+#The number of modules can be determined by the following:
+cd /lib/modules/15.13.1-your-custom-kernel
+find -name '*.ko*' | wc -l
+#
+#The kernel build time is obtained with:
+time make -jx bzImage # Replace "x" with the wanted number of threads
+#
+#then the modules build time is obtained with:
+time make -jx modules # Replace "x" with the wanted number of threads
 
